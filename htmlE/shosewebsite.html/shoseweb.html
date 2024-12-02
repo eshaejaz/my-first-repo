@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viva Shoes - Professional Shoes Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #2c3e50;
+        }
+        .navbar-brand img {
+            height: 50px;
+            width: auto;
+        }
+        .navbar-nav .nav-item .nav-link {
+            color: white !important;
+            font-size: 1.1rem;
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #f39c12 !important;
+        }
+
+        .hero-section {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+
+        .product-grid {
+            margin-top: 50px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 15px;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo Section -->
+            <a class="navbar-brand" href="#">
+                <img src="DALL·E 2024-11-16 21.02.22 - A professional logo design for a shoe brand named 'Viva Shoes'. The logo should include an elegant shoe icon, sleek typography, and a modern color sch.webp">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <img src="DALL·E 2024-11-16 21.02.22 - A professional logo design for a shoe brand named 'Viva Shoes'. The logo should include an elegant shoe icon, sleek typography, and a modern color sch.webp" alt="">
+            <h1>Discover Your Perfect Pair of Shoes</h1>
+            <p>Step into comfort and style with our exclusive collection</p>
+            <a href="#products" class="btn btn-light btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="product-grid">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Featured Products</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card product-card">
+                        <img src="https://via.placeholder.com/300x300?text=Product+1" class="card-img-top" alt="Shoe 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Men's Running Shoes</h5>
+                            <p class="card-text">$75</p>
+                            <a href="#product1" class="btn btn-primary">View Product</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Product Cards (repeat as necessary) -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Viva Shoes. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

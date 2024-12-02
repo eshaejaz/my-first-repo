@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result"></h1>
+</body>
+<script>
+    var num1 = parseInt(prompt("ENter Youre First Number Here"));
+    var num1 = parseInt(prompt("ENter Youre Second Number Here"));
+    var num1 = prompt("Enter operation you want to perfo(+,_,*,/)");
+    if(option == "+")
+{
+    document.getElementById("result").innerHTML ="Addition Of Number are : "+ (num1 + num2);
+}
+else if (option =="_")
+{
+    document.getElementById("result").innerHTML ="Subtraction Of Number are : "+ (num1 - num2);
+}
+else if (option == "*")
+{
+    document.getElementById("result").innerHTML ="Multiplication Of Number are : "+ (num1 * num2);
+}
+else if (option =="/")
+{
+    document.getElementById("result").innerHTML ="Division Of Number are : "+ (num1 / num2);
+}
+else 
+{
+    alert("choose correct option (+,-,*,/)");
+}
+</script>
+
+</html>

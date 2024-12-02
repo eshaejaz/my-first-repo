@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-logo h1 {
+    font-family: 'Instagram Font', sans-serif;
+    font-size: 24px;
+    color: #262626;
+}
+
+.header-icons .icon {
+    width: 24px;
+    margin-left: 15px;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    font-size: 20px;
+    color: #262626;
+}
+
+.profile-info p {
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Posts Section */
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+    </style>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-logo">
+            <h1>Instagram</h1>
+        </div>
+        <div class="header-icons">
+            <img src="search-icon.png" alt="Search" class="icon">
+            <img src="profile-icon.png" alt="Profile" class="icon">
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="profile-info">
+            <h2>Username</h2>
+            <p><strong>10</strong> posts | <strong>100</strong> followers | <strong>80</strong> following</p>
+            <p>Bio goes here. Add something interesting!</p>
+        </div>
+    </section>
+
+    <!-- Posts Section -->
+    <section class="posts">
+        <div class="post">
+            <img src="post1.jpg" alt="Post 1">
+        </div>
+        <div class="post">
+            <img src="post2.jpg" alt="Post 2">
+        </div>
+        <div class="post">
+            <img src="post3.jpg" alt="Post 3">
+        </div>
+    </section>
+</body>
+</html>
